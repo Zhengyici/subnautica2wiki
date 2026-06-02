@@ -1,0 +1,41 @@
+baseURL = "https://subnautica2wiki.github.io/"
+title = "Subnautica 2 Wiki & Database"
+theme = "subnautica2"
+languageCode = "en"
+enableRobotsTXT = true
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[pagination]
+  pagerSize = 50
+
+[params]
+  description = "The most complete Subnautica 2 database. Crafting recipes, creatures, materials, biomes, interactive map and guides."
+  keywords = "Subnautica 2, wiki, database, guide, crafting recipes, creatures, biomes, map, walkthrough"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Creatures"
+  url = "/creatures/"
+  weight = 2
+
+[[menu.main]]
+  name = "Materials"
+  url = "/materials/"
+  weight = 3
+
+[[menu.main]]
+  name = "Crafting"
+  url = "/crafting/"
+  
