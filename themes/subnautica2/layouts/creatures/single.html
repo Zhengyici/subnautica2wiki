@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{ with .Params.attitude }}<p><strong>Attitude:</strong> {{ . }}</p>{{ end }}
+{{ with .Params.biome }}<p><strong>Biome:</strong> {{ . }}</p>{{ end }}
+{{ with .Params.category }}<p><strong>Category:</strong> {{ . }}</p>{{ end }}
+{{ with .Params.health }}<p><strong>Health:</strong> {{ . }}</p>{{ end }}
+{{ with .Params.damage }}<p><strong>Damage:</strong> {{ . }}</p>{{ end }}
+{{ with .Params.active_during }}<p><strong>Active:</strong> {{ . }}</p>{{ end }}
+{{ end }}
