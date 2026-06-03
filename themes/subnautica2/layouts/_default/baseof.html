@@ -15,13 +15,13 @@
 </head>
 <body>
   <nav class="navbar">
-    <a href="{{ "/" | relURL }}" class="logo">
+    <a href="{{ "/" | relLangURL }}" class="logo">
       <span class="logo-icon">&#x1F30A;</span>
       {{ .Site.Title }}
     </a>
     <div class="nav-links">
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL | relURL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+        <a href="{{ .URL | relLangURL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
       {{ end }}
     </div>
     <div class="nav-spacer"></div>
