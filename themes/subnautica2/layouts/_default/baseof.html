@@ -11,16 +11,20 @@
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
   <nav class="navbar">
-    <a href="/" class="logo">🌊 Subnautica 2 Wiki</a>
+    <a href="{{ "/" | relURL }}" class="logo">
+      <span class="logo-icon">🌊</span>
+      Subnautica 2 Wiki
+    </a>
     <div class="nav-links">
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+        <a href="{{ .URL | relURL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
       {{ end }}
     </div>
+    <div class="nav-spacer"></div>
     <div class="search-box">
       <input type="text" id="search-input" placeholder="Search creatures, materials, recipes..." autocomplete="off">
       <div id="search-results"></div>
@@ -30,9 +34,5 @@
     {{ block "main" . }}{{ end }}
   </main>
   <footer class="footer">
-    <p>Subnautica 2 Wiki & Database — Fan-made, not affiliated with Unknown Worlds Entertainment.</p>
-    <p>Data sourced from community research. <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">Official Steam Page</a></p>
-  </footer>
-  <script src="/js/search.js"></script>
-</body>
-</html>
+    <p>Subnautica 2 Wiki & Database — Fan-made wiki for Subnautica 2. Not affiliated with Unknown Worlds Entertainment.</p>
+    <p>Data sourced from community research and in-game test
