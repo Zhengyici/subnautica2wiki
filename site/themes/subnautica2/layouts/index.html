@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="hero">
+  <h1>{{ i18n "hero_title" }}</h1>
+  <p>{{ i18n "hero_subtitle" }}</p>
+  <div class="stats">
+    <div><div class="stat-num">79</div><div class="stat-label">{{ i18n "crafting_recipes" }}</div></div>
+    <div><div class="stat-num">25+</div><div class="stat-label">{{ i18n "creature_database" }}</div></div>
+    <div><div class="stat-num">19</div><div class="stat-label">{{ i18n "materials_guide" }}</div></div>
+    <div><div class="stat-num">12</div><div class="stat-label">{{ i18n "biome_explorer" }}</div></div>
+  </div>
+</div>
+
+<div class="quick-links">
+  <a href="{{ "crafting/" | relURL }}" class="quick-link">
+    <div class="ql-icon" style="background:var(--gold-light)">🔧</div>
+    <h3>{{ i18n "crafting_recipes" }}</h3>
+    <p>{{ i18n "crafting_desc" }}</p>
+  </a>
+  <a href="{{ "creatures/" | relURL }}" class="quick-link">
+    <div class="ql-icon" style="background:var(--red-light)">🐋</div>
+    <h3>{{ i18n "creature_database" }}</h3>
+    <p>{{ i18n "creature_desc" }}</p>
+  </a>
+  <a href="{{ "materials/" | relURL }}" class="quick-link">
+    <div class="ql-icon" style="background:var(--accent-light)">💎</div>
+    <h3>{{ i18n "materials_guide" }}</h3>
+    <p>{{ i18n "materials_desc" }}</p>
+  </a>
+  <a href="{{ "biomes/" | relURL }}" class="quick-link">
+    <div class="ql-icon" style="background:var(--green-light)">🗺️</div>
+    <h3>{{ i18n "biome_explorer" }}</h3>
+    <p>{{ i18n "biome_desc" }}</p>
+  </a>
+  <a href="{{ "guides/" | relURL }}" class="quick-link">
+    <div class="ql-icon" style="background:var(--purple-light)">📖</div>
+    <h3>{{ i18n "beginner_guide" }}</h3>
+    <p>{{ i18n "beginner_desc" }}</p>
+  </a>
+</div>
+
+<div class="about-section">
+  <h2>{{ i18n "about_title" }}</h2>
+  <p>{{ i18n "about_text" }}</p>
+  <p><strong>{{ i18n "about_disclaimer" }}</strong></p>
+  <p style="color:var(--text3);font-size:0.9em;margin-top:12px">{{ i18n "about_vers
