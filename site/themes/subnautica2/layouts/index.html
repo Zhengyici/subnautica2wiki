@@ -11,27 +11,27 @@
 </div>
 
 <div class="quick-links">
-  <a href="{{ "crafting/" | relURL }}" class="quick-link">
+  <a href="{{ printf "/%s/crafting/" .Site.Language.Lang | relURL }}" class="quick-link">
     <div class="ql-icon" style="background:var(--gold-light)">&#x1F527;</div>
     <h3>{{ i18n "crafting_recipes" }}</h3>
     <p>{{ i18n "crafting_desc" }}</p>
   </a>
-  <a href="{{ "creatures/" | relURL }}" class="quick-link">
+  <a href="{{ printf "/%s/creatures/" .Site.Language.Lang | relURL }}" class="quick-link">
     <div class="ql-icon" style="background:var(--red-light)">&#x1F40B;</div>
     <h3>{{ i18n "creature_database" }}</h3>
     <p>{{ i18n "creature_desc" }}</p>
   </a>
-  <a href="{{ "materials/" | relURL }}" class="quick-link">
+  <a href="{{ printf "/%s/materials/" .Site.Language.Lang | relURL }}" class="quick-link">
     <div class="ql-icon" style="background:var(--accent-light)">&#x1F48E;</div>
     <h3>{{ i18n "materials_guide" }}</h3>
     <p>{{ i18n "materials_desc" }}</p>
   </a>
-  <a href="{{ "biomes/" | relURL }}" class="quick-link">
+  <a href="{{ printf "/%s/biomes/" .Site.Language.Lang | relURL }}" class="quick-link">
     <div class="ql-icon" style="background:var(--green-light)">&#x1F5FA;&#xFE0F;</div>
     <h3>{{ i18n "biome_explorer" }}</h3>
     <p>{{ i18n "biome_desc" }}</p>
   </a>
-  <a href="{{ "guides/" | relURL }}" class="quick-link">
+  <a href="{{ printf "/%s/guides/" .Site.Language.Lang | relURL }}" class="quick-link">
     <div class="ql-icon" style="background:var(--purple-light)">&#x1F4D6;</div>
     <h3>{{ i18n "beginner_guide" }}</h3>
     <p>{{ i18n "beginner_desc" }}</p>
