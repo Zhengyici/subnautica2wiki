@@ -1,27 +1,16 @@
 ---
 title: "Halfmoon"
-description: "Halfmoon creature guide for Subnautica 2"
+description: "Complete guide to Halfmoon in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: ""
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Halfmoon
 
-The '''Halfmoon''' (''Moliform luna'') is a passive fauna species in ''[[Subnautica 2]]''.
+## Overview
 
-## Quick Info
+The **Halfmoon** (*Moliform luna*) is a passive fauna species in *Subnautica 2*.
 
-| Property | Value |
-|----------|-------|
-| Attitude | Unknown |
-| Category | Unknown |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+---
+
+*[Back to Creatures](/creatures/)*
