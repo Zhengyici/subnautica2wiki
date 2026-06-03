@@ -1,27 +1,14 @@
 ---
 title: "Nibber Shark"
-description: "Nibber Shark creature guide for Subnautica 2"
-attitude: ""
-biome: ""
-category: ""
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
+description: "Complete guide to Nibber Shark in Subnautica 2 - stats, location, and tips"
+attitude: "Unknown"
+category: "Unknown"
 ---
 
 # Nibber Shark
 
-*This creature needs more data. Help us complete this entry!*
+*This entry is a stub. More details will be added as community research progresses.*
 
-## Quick Info
+---
 
-| Property | Value |
-|----------|-------|
-| Attitude | Unknown |
-| Category | Unknown |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+*[Back to Creatures](/creatures/)*
