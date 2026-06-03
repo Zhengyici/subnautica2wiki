@@ -3,7 +3,7 @@ theme = "subnautica2"
 enableRobotsTXT = true
 ignoreLogs = ['warning-goldmark-raw-html']
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [pagination]
   pagerSize = 50
