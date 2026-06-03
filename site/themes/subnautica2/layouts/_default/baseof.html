@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="{{ "/" | relURL }}" class="logo">
+      <span class="logo-icon">🌊</span>
+      {{ .Site.Title }}
+    </a>
+    <div class="nav-links">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relURL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+    <div class="nav-spacer"></div>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off">
+      <div id="search-results"></div>
+    </div>
+    <div class="lang-switcher">
+      {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+          <a href="{{ .Permalink }}" class="lang-btn {{ if eq .Lang $.Site.Language.Lang }}lang-active{{ end }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      {{ else }
