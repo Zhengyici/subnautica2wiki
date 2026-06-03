@@ -1,8 +1,12 @@
 ---
 title: "Plasteel Ingot"
-description: "Plasteel Ingot material in Subnautica 2"
+description: "Where to find Plasteel Ingot in Subnautica 2 - locations, uses, and crafting"
 ---
 
 # Plasteel Ingot
 
-*Material data needed. Help us complete this entry!*
+*Plasteel Ingot is a material found in Subnautica 2. Location and usage details coming soon.*
+
+---
+
+*[Back to Materials](/materials/)*
