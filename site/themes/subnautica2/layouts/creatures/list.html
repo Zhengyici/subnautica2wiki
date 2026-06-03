@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="breadcrumb"><a href="{{ "/" | relURL }}">{{ i18n "home" }}</a> <span>/</span> {{ .Title }}</div>
+<div class="section-header">
+  <h1>🐋 {{ .Title }}</h1>
+</div>
+{{ .Content }}
+
+<div class="card-grid">
+{{ range .Pages }}
+  <a href="{{ .Permalink }}" class="card">
+    <h3>{{ .Title }}</h3>
+    {{ with .Params.attitude }}
+      {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">{{ i18n "aggressive" }}</span>{{ end }}
+      {{ if eq . "Passive" }}<span class="tag tag-passive">{{ i18n "passive" }}</span>{{ end }}
+    {
