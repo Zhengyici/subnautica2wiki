@@ -16,7 +16,7 @@
 <body>
   <nav class="navbar">
     <a href="{{ "/" | relURL }}" class="logo">
-      <span class="logo-icon">🌊</span>
+      <span class="logo-icon">&#x1F30A;</span>
       {{ .Site.Title }}
     </a>
     <div class="nav-links">
@@ -30,8 +30,19 @@
       <div id="search-results"></div>
     </div>
     <div class="lang-switcher">
-      {{ range .Site.Languages }}
-        {{ if eq .Lang "en" }}
-          <a href="{{ "/" | relURL }}" class="lang-btn {{ if eq .Lang $.Site.Language.Lang }}lang-active{{ end }}">English</a>
-        {{ else }}
-          <a href="{{ "/zh/" | rel
+      {{ range .Translations }}
+        <a href="{{ .Permalink }}" class="lang-btn">{{ .Language.Label }}</a>
+      {{ end }}
+      <a href="{{ .Permalink }}" class="lang-btn lang-active">{{ .Site.Language.Label }}</a>
+    </div>
+  </nav>
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="footer">
+    <p>{{ i18n "footer_text" }}</p>
+    <p>{{ i18n "footer_source" }} <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">Steam</a></p>
+  </footer>
+  <script src="{{ "js/search.js" | relURL }}"></script>
+</body>
+</html>
