@@ -1,10 +1,16 @@
 {{ define "main" }}
 <div class="breadcrumb"><a href="{{ "/" | relURL }}">{{ i18n "home" }}</a> <span>/</span> {{ .Title }}</div>
 <div class="section-header">
-  <h1>💎 {{ .Title }}</h1>
+  <h1>&#x1F48E; {{ .Title }}</h1>
 </div>
 {{ .Content }}
 
 <div class="card-grid">
 {{ range .Pages }}
-  <a href="{{ .Permalink }
+  <a href="{{ .Permalink }}" class="card">
+    <h3>{{ .Title }}</h3>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </a>
+{{ end }}
+</div>
+{{ end }}
