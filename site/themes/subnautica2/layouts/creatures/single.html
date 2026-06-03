@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="breadcrumb">
+  <a href="{{ "/" | relURL }}">{{ i18n "home" }}</a> <span>/</span>
+  <a href="{{ "creatures/" | relURL }}">{{ i18n "creature_database" }}</a> <span>/</span>
+  {{ .Title }}
+</div>
+<div class="detail-header">
+  <div class="detail-icon" style="background:var(--red-light)">🐋</div>
+  <div class="detail-info">
+    <h1>{{ .Title }}</h1>
+    <div class="detail-tags">
+      {{ with .Params.attitude }}
+        {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">{{ i18n "aggr
