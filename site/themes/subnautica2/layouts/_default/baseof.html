@@ -30,8 +30,8 @@
       <div id="search-results"></div>
     </div>
     <div class="lang-switcher">
-      {{ if .IsTranslated }}
-        {{ range .AllTranslations }}
-          <a href="{{ .Permalink }}" class="lang-btn {{ if eq .Lang $.Site.Language.Lang }}lang-active{{ end }}">{{ .Language.LanguageName }}</a>
-        {{ end }}
-      {{ else }
+      {{ range .Site.Languages }}
+        {{ if eq .Lang "en" }}
+          <a href="{{ "/" | relURL }}" class="lang-btn {{ if eq .Lang $.Site.Language.Lang }}lang-active{{ end }}">English</a>
+        {{ else }}
+          <a href="{{ "/zh/" | rel
