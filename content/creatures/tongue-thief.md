@@ -1,27 +1,25 @@
 ---
 title: "Tongue Thief"
-description: "Tongue Thief creature guide for Subnautica 2"
+description: "Complete guide to Tongue Thief in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: "Mobile Life"
-health: ""
-damage: ""
-active_during: ""
-scan_duration: "4.0s"
 ---
 
 # Tongue Thief
 
-'''Tongue Thief''' is a creature in [[Subnautica 2]].
-
-## Quick Info
+## Quick Stats
 
 | Property | Value |
 |----------|-------|
-| Attitude | Unknown |
 | Category | Mobile Life |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
 | Scan Time | 4.0s |
+
+## Overview
+
+**Tongue Thief** is a creature in Subnautica 2.
+
+*This entry is a stub. More details will be added as community research progresses.*
+
+---
+
+*[Back to Creatures](/creatures/)*
