@@ -1,36 +1,24 @@
 ---
 title: "Awnworm"
-description: "Awnworm creature guide for Subnautica 2"
+description: "Complete guide to Awnworm in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: "Sessile Life"
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Awnworm
 
-{{Fauna
-|title1 = Awnworm
-|image1 = 
-|category = Sessile Life
-|attitude = 
-|health = 
-|debugspawn = 
-}}
-
-'''Awnworm''' is a creature in [[Subnautica 2]].
-
-## Quick Info
+## Quick Stats
 
 | Property | Value |
 |----------|-------|
-| Attitude | Unknown |
 | Category | Sessile Life |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+
+## Overview
+
+**Awnworm** is a creature in Subnautica 2.
+
+*This entry is a stub. More details will be added as community research progresses.*
+
+---
+
+*[Back to Creatures](/creatures/)*
