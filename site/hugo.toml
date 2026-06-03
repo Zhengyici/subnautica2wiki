@@ -1,0 +1,38 @@
+baseURL = "https://zhengyici.github.io/subnautica2wiki/"
+theme = "subnautica2"
+enableRobotsTXT = true
+ignoreLogs = ['warning-goldmark-raw-html']
+defaultContentLanguage = "en"
+
+[pagination]
+  pagerSize = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+
+[languages]
+  [languages.en]
+    title = "Subnautica 2 Wiki & Database"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      description = "The most complete Subnautica 2 database. Crafting recipes, creatures, materials, biomes, interactive map and guides."
+      keywords = "Subnautica 2, wiki, database, guide, crafting recipes, creatures, biomes, map, walkthrough"
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Creatures"
+      url = "/creatures/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Materials"
+      url = "/materials/"
+      weight = 3
+   
