@@ -1,11 +1,10 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<div class="breadcrumb"><a href="{{ "/" | relURL }}">Home</a> <span>/</span> {{ .Title }}</div>
+<div class="section-header">
+  <h1>💎 {{ .Title }}</h1>
+</div>
 {{ .Content }}
 
+<div class="card-grid">
 {{ range .Pages }}
-  <a href="{{ .Permalink }}" class="card" style="display:block;margin-bottom:12px;padding:16px;">
-    <h3>{{ .Title }}</h3>
-    {{ with .Description }}<p>{{ . }}</p>{{ end }}
-  </a>
-{{ end }}
-{{ end }}
+  <a href="{{ .Permalink }}" class="car
