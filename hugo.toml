@@ -1,4 +1,4 @@
-baseURL = "https://subnautica2wiki.github.io/"
+baseURL = "https://zhengyici.github.io/subnautica2wiki/"
 title = "Subnautica 2 Wiki & Database"
 theme = "subnautica2"
 languageCode = "en"
@@ -38,4 +38,14 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [[menu.main]]
   name = "Crafting"
   url = "/crafting/"
-  
+  weight = 4
+
+[[menu.main]]
+  name = "Biomes"
+  url = "/biomes/"
+  weight = 5
+
+[[menu.main]]
+  name = "Guides"
+  url = "/guides/"
+  weight = 6
