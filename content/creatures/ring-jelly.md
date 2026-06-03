@@ -1,27 +1,14 @@
 ---
 title: "Ring Jelly"
-description: "Ring Jelly creature guide for Subnautica 2"
+description: "Complete guide to Ring Jelly in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: ""
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Ring Jelly
 
-*This creature needs more data. Help us complete this entry!*
+*This entry is a stub. More details will be added as community research progresses.*
 
-## Quick Info
+---
 
-| Property | Value |
-|----------|-------|
-| Attitude | Unknown |
-| Category | Unknown |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+*[Back to Creatures](/creatures/)*
