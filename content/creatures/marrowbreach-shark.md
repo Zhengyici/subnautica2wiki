@@ -1,40 +1,25 @@
 ---
 title: "Marrowbreach Shark"
-description: "Marrowbreach Shark creature guide for Subnautica 2"
+description: "Complete guide to Marrowbreach Shark in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: "|active_during ="
 category: ""
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Marrowbreach Shark
 
-|image = {{PAGENAME}}.png
-|affiliation=
-|category = 
-|tab = [[Fauna]]
-|attitude = 
-|biome = 
-|active_during = 
-|age = 
-|length = 
-|debug_spawn = 
-|voiceactor = 
-}}
-
-The '''{{PAGENAME}}''' is fauna in ''[[{{topic}}]]''. At the time of this writing, not much is known about it beyond its presence in the game.
-
-## Quick Info
+## Quick Stats
 
 | Property | Value |
 |----------|-------|
-| Attitude | Unknown |
-| Category | Unknown |
-| Biome | |active_during = |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+| Location | |active_during = |
+
+## Overview
+
+|image = .png
+|affiliation=
+|category = |tab = Fauna
+|attitude = |biome = |active_during = |age = |length = |debug_spawn = |voiceactor = The ** is fauna in **'. At the time of this writing, not much is known about it beyond its presence in the game.
+
+---
+
+*[Back to Creatures](/creatures/)*
