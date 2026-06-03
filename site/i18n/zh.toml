@@ -1,0 +1,89 @@
+[search_placeholder]
+  other = "搜索生物、材料、配方..."
+
+[about_title]
+  other = "关于本维基"
+
+[about_text]
+  other = "《深海迷航2》是由 Unknown Worlds Entertainment 开发的水下生存冒险游戏，舞台设定在泽祖拉星球。支持最多4人合作模式，探索异星深海、制造装备、建造基地、在未知中求生。"
+
+[about_disclaimer]
+  other = "与 Unknown Worlds Entertainment 无关。由社区玩家制作的非官方维基。"
+
+[about_version]
+  other = "游戏版本：抢先体验（2026年5月14日上线）— 维基最后更新：2026年6月"
+
+[footer_text]
+  other = "深海迷航2 图鉴数据库 — 非官方社区维基，与 Unknown Worlds Entertainment 无关。"
+
+[footer_source]
+  other = "数据来源于社区研究和游戏内测试。"
+
+[hero_title]
+  other = "深海迷航2 图鉴"
+
+[hero_subtitle]
+  other = "最全面的深海迷航2数据库 — 合成配方、生物图鉴、材料指南、生态区域和攻略，一站搞定。"
+
+[crafting_recipes]
+  other = "合成配方"
+
+[crafting_desc]
+  other = "79个配方，完整材料清单"
+
+[creature_database]
+  other = "生物图鉴"
+
+[creature_desc]
+  other = "25+种生物，包含属性和位置"
+
+[materials_guide]
+  other = "材料指南"
+
+[materials_desc]
+  other = "19种材料，获取方式一目了然"
+
+[biome_explorer]
+  other = "生态区域"
+
+[biome_desc]
+  other = "12个生态区域，资源与危险并存"
+
+[beginner_guide]
+  other = "新手攻略"
+
+[beginner_desc]
+  other = "在泽祖拉星球上度过最初几个小时"
+
+[back_to]
+  other = "返回{{ . }}"
+
+[home]
+  other = "首页"
+
+[attitude]
+  other = "攻击性"
+
+[category]
+  other = "分类"
+
+[health]
+  other = "生命值"
+
+[damage]
+  other = "伤害"
+
+[active_during]
+  other = "活跃时间"
+
+[scan_time]
+  other = "扫描时间"
+
+[location]
+  other = "位置"
+
+[aggressive]
+  other = "主动攻击"
+
+[passive]
+  other = "被动"
