@@ -1,27 +1,18 @@
 ---
 title: "Sea Skimmer"
-description: "Sea Skimmer creature guide for Subnautica 2"
+description: "Complete guide to Sea Skimmer in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: ""
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Sea Skimmer
 
-*This creature needs more data. Help us complete this entry!*
+## Overview
 
-## Quick Info
+Category:Biomods
 
-| Property | Value |
-|----------|-------|
-| Attitude | Unknown |
-| Category | Unknown |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+*This entry is a stub. More details will be added as community research progresses.*
+
+---
+
+*[Back to Creatures](/creatures/)*
