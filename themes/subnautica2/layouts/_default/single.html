@@ -1,2 +1,16 @@
 {{ define "main" }}
 <div class="breadcrumb">
+  <a href="{{ "/" | relURL }}">{{ i18n "home" }}</a> <span>/</span>
+  {{ .Title }}
+</div>
+<div class="detail-header">
+  <div class="detail-icon" style="background:var(--accent-light)">&#x1F4CB;</div>
+  <div class="detail-info">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<div class="detail-meta">{{ . }}</div>{{ end }}
+  </div>
+</div>
+<div class="prose">
+{{ .Content }}
+</div>
+{{ end }}

@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="breadcrumb"><a href="{{ "/" | relURL }}">Home</a> <span>/</span> {{ .Title }}</div>
+<div class="breadcrumb"><a href="{{ "/" | relURL }}">{{ i18n "home" }}</a> <span>/</span> {{ .Title }}</div>
 <div class="section-header">
-  <h1>🐋 {{ .Title }}</h1>
+  <h1>&#x1F40B; {{ .Title }}</h1>
 </div>
 {{ .Content }}
 
@@ -10,7 +10,14 @@
   <a href="{{ .Permalink }}" class="card">
     <h3>{{ .Title }}</h3>
     {{ with .Params.attitude }}
-      {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">Aggressive</span>{{ end }}
-      {{ if eq . "Passive" }}<span class="tag tag-passive">Passive</span>{{ end }}
+      {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">{{ i18n "aggressive" }}</span>{{ end }}
+      {{ if eq . "Passive" }}<span class="tag tag-passive">{{ i18n "passive" }}</span>{{ end }}
     {{ end }}
-    {{ with .Params.category }
+    {{ with .Params.category }}
+      <span class="tag {{ if in (lower .) "leviathan" }}tag-leviathan{{ else }}tag-common{{ end }}">{{ . }}</span>
+    {{ end }}
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </a>
+{{ end }}
+</div>
+{{ end }}

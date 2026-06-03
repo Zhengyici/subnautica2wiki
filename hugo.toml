@@ -1,16 +1,12 @@
 baseURL = "https://zhengyici.github.io/subnautica2wiki/"
-title = "Subnautica 2 Wiki & Database"
 theme = "subnautica2"
-languageCode = "en"
 enableRobotsTXT = true
 ignoreLogs = ['warning-goldmark-raw-html']
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [pagination]
   pagerSize = 50
-
-[params]
-  description = "The most complete Subnautica 2 database. Crafting recipes, creatures, materials, biomes, interactive map and guides."
-  keywords = "Subnautica 2, wiki, database, guide, crafting recipes, creatures, biomes, map, walkthrough"
 
 [markup]
   [markup.goldmark]
@@ -20,32 +16,67 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [outputs]
   home = ["HTML", "RSS", "Sitemap"]
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+[languages]
+  [languages.en]
+    title = "Subnautica 2 Wiki & Database"
+    label = "English"
+    weight = 1
+    [languages.en.params]
+      description = "The most complete Subnautica 2 database."
+      keywords = "Subnautica 2, wiki, database, guide"
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Creatures"
+      url = "/creatures/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Materials"
+      url = "/materials/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Crafting"
+      url = "/crafting/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Biomes"
+      url = "/biomes/"
+      weight = 5
+    [[languages.en.menu.main]]
+      name = "Guides"
+      url = "/guides/"
+      weight = 6
 
-[[menu.main]]
-  name = "Creatures"
-  url = "/creatures/"
-  weight = 2
-
-[[menu.main]]
-  name = "Materials"
-  url = "/materials/"
-  weight = 3
-
-[[menu.main]]
-  name = "Crafting"
-  url = "/crafting/"
-  weight = 4
-
-[[menu.main]]
-  name = "Biomes"
-  url = "/biomes/"
-  weight = 5
-
-[[menu.main]]
-  name = "Guides"
-  url = "/guides/"
-  weight = 6
+  [languages.zh]
+    title = "Subnautica 2 Wiki"
+    label = "中文"
+    weight = 2
+    [languages.zh.params]
+      description = "Subnautica 2 wiki database."
+      keywords = "Subnautica 2, wiki, guide"
+    [[languages.zh.menu.main]]
+      name = "首页"
+      url = "/"
+      weight = 1
+    [[languages.zh.menu.main]]
+      name = "生物"
+      url = "/creatures/"
+      weight = 2
+    [[languages.zh.menu.main]]
+      name = "材料"
+      url = "/materials/"
+      weight = 3
+    [[languages.zh.menu.main]]
+      name = "合成"
+      url = "/crafting/"
+      weight = 4
+    [[languages.zh.menu.main]]
+      name = "生态区域"
+      url = "/biomes/"
+      weight = 5
+    [[languages.zh.menu.main]]
+      name = "攻略"
+      url = "/guides/"
+      weight = 6

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +16,8 @@
 <body>
   <nav class="navbar">
     <a href="{{ "/" | relURL }}" class="logo">
-      <span class="logo-icon">🌊</span>
-      Subnautica 2 Wiki
+      <span class="logo-icon">&#x1F30A;</span>
+      {{ .Site.Title }}
     </a>
     <div class="nav-links">
       {{ range .Site.Menus.main }}
@@ -26,13 +26,23 @@
     </div>
     <div class="nav-spacer"></div>
     <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search creatures, materials, recipes..." autocomplete="off">
+      <input type="text" id="search-input" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off">
       <div id="search-results"></div>
+    </div>
+    <div class="lang-switcher">
+      {{ range .Translations }}
+        <a href="{{ .Permalink }}" class="lang-btn">{{ .Language.Label }}</a>
+      {{ end }}
+      <a href="{{ .Permalink }}" class="lang-btn lang-active">{{ .Site.Language.Label }}</a>
     </div>
   </nav>
   <main class="container">
     {{ block "main" . }}{{ end }}
   </main>
   <footer class="footer">
-    <p>Subnautica 2 Wiki & Database — Fan-made wiki for Subnautica 2. Not affiliated with Unknown Worlds Entertainment.</p>
-    <p>Data sourced from community research and in-game test
+    <p>{{ i18n "footer_text" }}</p>
+    <p>{{ i18n "footer_source" }} <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">Steam</a></p>
+  </footer>
+  <script src="{{ "js/search.js" | relURL }}"></script>
+</body>
+</html>

@@ -1,14 +1,33 @@
 {{ define "main" }}
 <div class="breadcrumb">
-  <a href="{{ "/" | relURL }}">Home</a> <span>/</span>
-  <a href="{{ "creatures/" | relURL }}">Creatures</a> <span>/</span>
+  <a href="{{ "/" | relURL }}">{{ i18n "home" }}</a> <span>/</span>
+  <a href="{{ "creatures/" | relURL }}">{{ i18n "creature_database" }}</a> <span>/</span>
   {{ .Title }}
 </div>
 <div class="detail-header">
-  <div class="detail-icon" style="background:var(--red-light)">🐋</div>
+  <div class="detail-icon" style="background:var(--red-light)">&#x1F40B;</div>
   <div class="detail-info">
     <h1>{{ .Title }}</h1>
     <div class="detail-tags">
       {{ with .Params.attitude }}
-        {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">Aggressive</span>{{ end }}
-        {{ if eq . "
+        {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">{{ i18n "aggressive" }}</span>{{ end }}
+        {{ if eq . "Passive" }}<span class="tag tag-passive">{{ i18n "passive" }}</span>{{ end }}
+      {{ end }}
+      {{ with .Params.category }}<span class="tag tag-common">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="stat-grid">
+  {{ with .Params.attitude }}<div class="stat-card"><div class="stat-label">{{ i18n "attitude" }}</div><div class="stat-value">{{ . }}</div></div>{{ end }}
+  {{ with .Params.category }}<div class="stat-card"><div class="stat-label">{{ i18n "category" }}</div><div class="stat-value">{{ . }}</div></div>{{ end }}
+  {{ with .Params.health }}<div class="stat-card"><div class="stat-label">{{ i18n "health" }}</div><div class="stat-value">{{ . }}</div></div>{{ end }}
+  {{ with .Params.damage }}<div class="stat-card"><div class="stat-label">{{ i18n "damage" }}</div><div class="stat-value">{{ . }}</div></div>{{ end }}
+  {{ with .Params.active_during }}<div class="stat-card"><div class="stat-label">{{ i18n "active_during" }}</div><div class="stat-value">{{ . }}</div></div>{{ end }}
+  {{ with .Params.scan_duration }}<div class="stat-card"><div class="stat-label">{{ i18n "scan_time" }}</div><div class="stat-value">{{ . }}</div></div>{{ end }}
+</div>
+
+<div class="prose">
+{{ .Content }}
+</div>
+{{ end }}

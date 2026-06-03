@@ -1,0 +1,89 @@
+[search_placeholder]
+  other = "Search creatures, materials, recipes..."
+
+[about_title]
+  other = "About This Wiki"
+
+[about_text]
+  other = "Subnautica 2 is an underwater survival adventure on Planet Zezura, developed by Unknown Worlds Entertainment. Play alone or with friends in 4-player co-op. Explore alien depths, craft equipment, build bases, and survive the unknown."
+
+[about_disclaimer]
+  other = "Not affiliated with Unknown Worlds Entertainment. Fan-made wiki built by the community."
+
+[about_version]
+  other = "Game version: Early Access (launched May 14, 2026) — Wiki last updated: June 2026"
+
+[footer_text]
+  other = "Subnautica 2 Wiki & Database — Fan-made wiki for Subnautica 2. Not affiliated with Unknown Worlds Entertainment."
+
+[footer_source]
+  other = "Data sourced from community research and in-game testing."
+
+[hero_title]
+  other = "Subnautica 2 Wiki"
+
+[hero_subtitle]
+  other = "The most complete database for Subnautica 2 — crafting recipes, creatures, materials, biomes and guides. All in one place."
+
+[crafting_recipes]
+  other = "Crafting Recipes"
+
+[crafting_desc]
+  other = "79 recipes with full ingredient lists"
+
+[creature_database]
+  other = "Creature Database"
+
+[creature_desc]
+  other = "25+ creatures with stats and locations"
+
+[materials_guide]
+  other = "Materials Guide"
+
+[materials_desc]
+  other = "19 materials with where-to-find info"
+
+[biome_explorer]
+  other = "Biome Explorer"
+
+[biome_desc]
+  other = "12 biomes with resources and dangers"
+
+[beginner_guide]
+  other = "Beginner Guide"
+
+[beginner_desc]
+  other = "Survive your first hours on Planet Zezura"
+
+[back_to]
+  other = "Back to {{ . }}"
+
+[home]
+  other = "Home"
+
+[attitude]
+  other = "Attitude"
+
+[category]
+  other = "Category"
+
+[health]
+  other = "Health"
+
+[damage]
+  other = "Damage"
+
+[active_during]
+  other = "Active During"
+
+[scan_time]
+  other = "Scan Time"
+
+[location]
+  other = "Location"
+
+[aggressive]
+  other = "Aggressive"
+
+[passive]
+  other = "Passive"
