@@ -1,27 +1,24 @@
 ---
 title: "Houndgar"
-description: "Houndgar creature guide for Subnautica 2"
+description: "Complete guide to Houndgar in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: "Mobile Life"
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Houndgar
 
-'''Houndgar''' is a creature in [[Subnautica 2]].
-
-## Quick Info
+## Quick Stats
 
 | Property | Value |
 |----------|-------|
-| Attitude | Unknown |
 | Category | Mobile Life |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+
+## Overview
+
+**Houndgar** is a creature in Subnautica 2.
+
+*This entry is a stub. More details will be added as community research progresses.*
+
+---
+
+*[Back to Creatures](/creatures/)*
