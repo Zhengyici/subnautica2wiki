@@ -1,27 +1,23 @@
 ---
 title: "Shiver Leviathan"
-description: "Shiver Leviathan creature guide for Subnautica 2"
+description: "Complete guide to Shiver Leviathan in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: "Mobile Life"
-health: ""
-damage: ""
-active_during: ""
-scan_duration: "5.0s"
 ---
 
 # Shiver Leviathan
 
-'''Shiver Leviathan''' is a creature in [[Subnautica 2]].
-
-## Quick Info
+## Quick Stats
 
 | Property | Value |
 |----------|-------|
-| Attitude | Unknown |
 | Category | Mobile Life |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
 | Scan Time | 5.0s |
+
+## Overview
+
+**Shiver Leviathan** is a creature in Subnautica 2.
+
+---
+
+*[Back to Creatures](/creatures/)*
