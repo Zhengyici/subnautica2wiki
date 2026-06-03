@@ -1,27 +1,22 @@
 ---
 title: "Tadpole"
-description: "Tadpole creature guide for Subnautica 2"
+description: "Complete guide to Tadpole in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: "Vehicles"
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Tadpole
 
-The '''{{PAGENAME}}''' is a small, versatile one-person [[vehicle|submersible]] player characters can use in ''[[{{topic}}]]''.
-
-## Quick Info
+## Quick Stats
 
 | Property | Value |
 |----------|-------|
-| Attitude | Unknown |
 | Category | Vehicles |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+
+## Overview
+
+The ** is a small, versatile one-person submersible player characters can use in **'.
+
+---
+
+*[Back to Creatures](/creatures/)*
