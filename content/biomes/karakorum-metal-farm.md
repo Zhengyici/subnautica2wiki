@@ -1,9 +1,12 @@
 ---
 title: "Karakorum Metal Farm"
-description: "Karakorum Metal Farm biome in Subnautica 2"
+description: "Explore Karakorum Metal Farm in Subnautica 2 - creatures, resources, and points of interest"
 ---
 
 # Karakorum Metal Farm
 
-TBA
-Category:Biomes
+*Karakorum Metal Farm is a biome in Subnautica 2. Detailed exploration guide coming soon.*
+
+---
+
+*[Back to Biomes](/biomes/)*
