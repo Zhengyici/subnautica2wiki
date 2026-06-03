@@ -1,28 +1,17 @@
 ---
 title: "Sea Slug"
-description: "Sea Slug creature guide for Subnautica 2"
+description: "Complete guide to Sea Slug in Subnautica 2 - stats, location, and tips"
 attitude: ""
-biome: ""
 category: ""
-health: ""
-damage: ""
-active_during: ""
-scan_duration: ""
 ---
 
 # Sea Slug
 
-[[File:Water Slug.png|thumb]]Water Slugs are filter feeders that are commonly found throughout the [[Coral Gardens]] biome. They are able to be fabricated into water just like the [[Bladderfish (Subnautica)|Bladderfish]] in Subnautica.{{DEFAULTSORT:Water Slug (Subnautica 2)}}
-[[Category:Subnautica 2]]
+## Overview
 
-## Quick Info
+thumbWater Slugs are filter feeders that are commonly found throughout the Coral Gardens biome. They are able to be fabricated into water just like the Bladderfish in Subnautica.
+Category:Subnautica 2
 
-| Property | Value |
-|----------|-------|
-| Attitude | Unknown |
-| Category | Unknown |
-| Biome | Unknown |
-| Health | Unknown |
-| Damage | Unknown |
-| Active | Unknown |
-| Scan Time | Unknown |
+---
+
+*[Back to Creatures](/creatures/)*
