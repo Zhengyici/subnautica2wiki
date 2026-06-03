@@ -1,5 +1,8 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<div class="breadcrumb"><a href="{{ "/" | relURL }}">Home</a> <span>/</span> {{ .Title }}</div>
+<div class="section-header">
+  <h1>🐋 {{ .Title }}</h1>
+</div>
 {{ .Content }}
 
 <div class="card-grid">
@@ -10,9 +13,4 @@
       {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">Aggressive</span>{{ end }}
       {{ if eq . "Passive" }}<span class="tag tag-passive">Passive</span>{{ end }}
     {{ end }}
-    {{ with .Params.category }}<span class="tag tag-common">{{ . }}</span>{{ end }}
-    {{ with .Description }}<p>{{ . }}</p>{{ end }}
-  </a>
-{{ end }}
-</div>
-{{ end }}
+    {{ with .Params.category }
