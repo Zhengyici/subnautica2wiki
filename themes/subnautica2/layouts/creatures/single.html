@@ -1,11 +1,14 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-
-{{ with .Params.attitude }}<p><strong>Attitude:</strong> {{ . }}</p>{{ end }}
-{{ with .Params.biome }}<p><strong>Biome:</strong> {{ . }}</p>{{ end }}
-{{ with .Params.category }}<p><strong>Category:</strong> {{ . }}</p>{{ end }}
-{{ with .Params.health }}<p><strong>Health:</strong> {{ . }}</p>{{ end }}
-{{ with .Params.damage }}<p><strong>Damage:</strong> {{ . }}</p>{{ end }}
-{{ with .Params.active_during }}<p><strong>Active:</strong> {{ . }}</p>{{ end }}
-{{ end }}
+<div class="breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a> <span>/</span>
+  <a href="{{ "creatures/" | relURL }}">Creatures</a> <span>/</span>
+  {{ .Title }}
+</div>
+<div class="detail-header">
+  <div class="detail-icon" style="background:var(--red-light)">🐋</div>
+  <div class="detail-info">
+    <h1>{{ .Title }}</h1>
+    <div class="detail-tags">
+      {{ with .Params.attitude }}
+        {{ if eq . "Aggressive" }}<span class="tag tag-aggressive">Aggressive</span>{{ end }}
+        {{ if eq . "
